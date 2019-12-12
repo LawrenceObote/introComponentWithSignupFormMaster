@@ -1,0 +1,138 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-image: url("images/bg-intro-mobile.png");
+	background-repeat: no-repeat;
+	background-color: hsl(0, 100%, 74%);
+	text-align:center;
+}
+h1{
+	color: white;
+	width:70%;
+	text-align: center;
+	margin: 0 auto;
+
+}
+#learn{
+     color: white;
+     width: 70%;
+     padding-bottom: 60px;
+     text-align: center;
+     margin: 0 auto;
+}
+form{
+	margin: 0 auto;
+	display: inline-block;
+	background-color: white;
+	text-align:center;
+	width: 65%;
+	border-radius: 12px;
+	padding-top: 20px;
+	box-shadow: 0 8px 6px -6px gray;
+	border: none;
+
+}
+input, select {
+  width: 90%;
+  height: 40%;
+  padding: 16px 10px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: 600;
+
+}
+.try{
+	background-color:  hsl(248, 32%, 49%);
+	color: white;
+	width: 64%;
+    height: 40%;
+    padding: 16px 20px;
+    margin: 8px auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 6px -6px gray;
+    border: none;
+}
+
+#terms{
+	color: hsl(246, 25%, 77%);
+	padding: 0px 20px;
+	font-size: 12px;
+}
+span{
+	color: hsl(0, 100%, 74%) ;
+}
+
+button{
+	width: 90%;
+	color: white;
+	background-color: hsl(154, 59%, 51%);
+    height: 40%;
+    padding: 16px 20px;
+    margin: 8px auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 6px -6px gray;
+    border: none;
+}
+
+button:focus{
+	outline: none;
+}
+
+input:focus{
+	outline: none;
+}
+
+
+@media screen and (min-width: 1440px){
+
+	body{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background-repeat: repeat;
+	}
+	form{
+		height: 60%;
+		display: inline-block;
+	}
+
+	.container{
+		justify-content: center;
+		align-items: center
+	}
+	.two{
+		display: block;
+		text-align: center;
+		margin-top: 10%;
+	}
+	.one{
+		margin-top: 10%;
+		width: 70%;
+		text-align: left;
+		margin-left: 5%;
+		
+		display: block;
+
+
+	}
+
+	h1{
+		text-align: left;
+	}
+
+	#learn{
+		text-align:left;
+	}
+}
+
+
+
+
